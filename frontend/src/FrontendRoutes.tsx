@@ -10,8 +10,8 @@ import Transactions from "./pages/Transactions.tsx";
 const FrontendRoutes = () => {
     return(
         <Routes>
-            <Route path='/' element={<Homepage />} />
-            <Route path='/dashboard' element={<Dashboard />} />
+            <Route path='/Home' element={<Homepage />} />
+            <Route path='/' element={<Dashboard />} />
             <Route path='/analytics' element={<Analytics />} />
             <Route path='/history' element={<History />} />
             <Route path='/settings' element={<Settings />} />

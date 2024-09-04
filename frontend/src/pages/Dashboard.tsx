@@ -1,7 +1,9 @@
+import Navbar from "../components/Global/Navbar.tsx";
+
 const Dashboard = () => {
     return(
         <div>
-            Dashboard
+            <Navbar currentPage={'D'} />
         </div>
     )
 }

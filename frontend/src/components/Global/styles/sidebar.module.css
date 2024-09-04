@@ -1,0 +1,77 @@
+ .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 100vh;
+    background: #f1f1f1;
+    box-shadow: 2px 0 4px 0 rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+     padding-right: 40px;
+    z-index: 200;
+}
+
+  .logocontainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+  .logo {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-left: 10px;
+}
+
+  .navlinks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+  .links {
+    text-transform: capitalize;
+    margin: 10px 0;
+    min-width: 100%;
+    text-decoration: none;
+    color: #7c7c7c;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+  .links:hover {
+    color: var(--primary-color);
+    background-color: #e6e6e6;
+}
+
+  .links.active {
+    background-color: #e6e6e6;
+    color: #1f1f1f;
+}
+
+  .close_icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: var(--font-color-dark);
+}
+
+  .footer {
+    margin-top: auto;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}

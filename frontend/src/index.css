@@ -2,6 +2,31 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 0.8;
   font-weight: 400;
+
+  --primary-color: #2670d1;
+  --secondary-color: #6992d1;
+  --tertiary-color: #005bd1;
+  --background-color: #cbdbf1;
+  --font-color: #e6e6e6;
+  --font-color-dark: #1f1f1f;
+  --error-color: #d9534f;
+  --info-color: #edc164;
+  --border-radius: 5px;
+  --font-size-heading: 40px;
+  --font-size-paragraph: 20px;
+  --font-size-paragraph-small: 16px;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
 }
 
 body {
@@ -9,4 +34,6 @@ body {
   padding: 0;
   min-width: 320px;
   min-height: 100vh;
+  background: var(--background-color);
+  overflow-x: hidden;
 }
